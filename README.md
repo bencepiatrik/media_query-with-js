@@ -1,1 +1,1 @@
-# media_query-with-js
+# media_queries_with_js
