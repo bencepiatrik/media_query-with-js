@@ -10,23 +10,23 @@ let mediaQuery = []
 function mediaSize(e) {
   if (mediaQueryMobile.matches) {
     mediaQuery = []
-    mediaQuery.push('mobile')
+    mediaQuery.push('mobile (above 320px)')
   }
   if (mediaQueryTablet.matches) {
     mediaQuery = []
-    mediaQuery.push('tablet')
+    mediaQuery.push('tablet (above 480px)')
   }
   if (mediaQueryLaptop.matches) {
     mediaQuery = []
-    mediaQuery.push('laptop')
+    mediaQuery.push('laptop (above 768px)')
   }
   if (mediaQueryDesktop.matches) {
     mediaQuery = []
-    mediaQuery.push('desktop')
+    mediaQuery.push('desktop (above 1024px)')
   }
   if (mediaQueryExtra.matches) {
     mediaQuery = []
-    mediaQuery.push('extra')
+    mediaQuery.push('extra (above 1200px)')
   }
   textBox.innerHTML = mediaQuery[0]
 }
